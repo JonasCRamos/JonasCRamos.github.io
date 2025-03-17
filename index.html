@@ -1,0 +1,33 @@
+
+<img src="" id="imagen" style="width: 250px;"><br>
+<span id="nomePersonagem"></span><br>
+<span id="id"></span><br>
+<span id="description"></span>
+
+
+<script>
+
+async function dragonget() {
+  const url = "https://dragonball-api.com/api/characters/1";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+
+
+    }
+
+    const json = await response.json();
+    console.log(json);
+    console.log(json.name);
+    document.getElementById('nomePersonagem').innerText = json.name;
+    document.getElementById('id').innerText = json.id;
+    document.getElementById('description').innerText = json.description;
+    document.getElementById('imagen').src = json.image;
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+dragonget();
+</script>
