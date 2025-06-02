@@ -1,0 +1,53 @@
+{
+    "categorias": [
+      "Doces",
+      "Salgados",
+      "Bebidas"
+    ],
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Bolo de chocolate",
+        "preco": 23.00,
+        "categoria": "Doces",
+        "imagem": "https://via.placeholder.com/120x120?text=Bolo"
+      },
+      {
+        "id": 2,
+        "nome": "Açaí",
+        "preco": 27.00,
+        "categoria": "Doces",
+        "imagem": "https://via.placeholder.com/120x120?text=A%C3%A7a%C3%AD"
+      },
+      {
+        "id": 3,
+        "nome": "X-Salada",
+        "preco": 25.00,
+        "categoria": "Salgados",
+        "imagem": "https://via.placeholder.com/120x120?text=X-Salada"
+      },
+      {
+        "id": 4,
+        "nome": "Coxinha",
+        "preco": 20.95,
+        "categoria": "Salgados",
+        "imagem": "https://via.placeholder.com/120x120?text=Coxinha"
+      },
+      {
+        "id": 5,
+        "nome": "Coca Cola",
+        "preco": 17.75,
+        "categoria": "Bebidas",
+        "imagem": "https://via.placeholder.com/120x120?text=Coca+Cola"
+      },
+      {
+        "id": 6,
+        "nome": "Pepsi",
+        "preco": 22.50,
+        "categoria": "Bebidas",
+        "imagem": "https://via.placeholder.com/120x120?text=Pepsi"
+      }
+    ]
+  }
+  
+  
