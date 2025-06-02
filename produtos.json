@@ -1,0 +1,89 @@
+{
+    "categorias": [
+      {
+        "id": "sanduiches",
+        "nome": "Sanduíches",
+        "icone": "https://img.icons8.com/ios-filled/50/ffd700/burger.png",
+        "produtos": [
+          {
+            "id": "s1",
+            "nome": "X-Burguer",
+            "descricao": "Hambúrguer artesanal com queijo cheddar e maionese especial.",
+            "preco": 22.5,
+            "imagem": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=64&q=80"
+          },
+          {
+            "id": "s2",
+            "nome": "Sanduíche Vegano",
+            "descricao": "Delicioso hambúrguer à base de grão-de-bico e especiarias.",
+            "preco": 25.0,
+            "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=64&q=80"
+          }
+        ]
+      },
+      {
+        "id": "salgados",
+        "nome": "Salgados",
+        "icone": "https://img.icons8.com/ios-filled/50/ffd700/french-fries.png",
+        "produtos": [
+          {
+            "id": "sal1",
+            "nome": "Coxinha",
+            "descricao": "Clássica coxinha de frango com catupiry.",
+            "preco": 7.0,
+            "imagem": "https://images.unsplash.com/photo-1626077281629-19f26d546c42?auto=format&fit=crop&w=64&q=80"
+          },
+          {
+            "id": "sal2",
+            "nome": "Esfiha",
+            "descricao": "Esfiha aberta de carne temperada.",
+            "preco": 6.0,
+            "imagem": "https://images.unsplash.com/photo-1595854143937-b72c234b121e?auto=format&fit=crop&w=64&q=80"
+          }
+        ]
+      },
+      {
+        "id": "doces",
+        "nome": "Doces",
+        "icone": "https://img.icons8.com/ios-filled/50/ffd700/doughnut.png",
+        "produtos": [
+          {
+            "id": "d1",
+            "nome": "Brownie",
+            "descricao": "Brownie de chocolate com castanhas.",
+            "preco": 9.0,
+            "imagem": "https://images.unsplash.com/photo-1604908177522-4023d8f3d84e?auto=format&fit=crop&w=64&q=80"
+          },
+          {
+            "id": "d2",
+            "nome": "Brigadeiro Gourmet",
+            "descricao": "Brigadeiro feito com chocolate belga.",
+            "preco": 4.0,
+            "imagem": "https://images.unsplash.com/photo-1603006905322-19b6acb4abed?auto=format&fit=crop&w=64&q=80"
+          }
+        ]
+      },
+      {
+        "id": "bebidas",
+        "nome": "Bebidas",
+        "icone": "https://img.icons8.com/ios-filled/50/ffd700/cocktail.png",
+        "produtos": [
+          {
+            "id": "b1",
+            "nome": "Suco Natural",
+            "descricao": "Suco de laranja fresco, sem adição de açúcar.",
+            "preco": 8.0,
+            "imagem": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=64&q=80"
+          },
+          {
+            "id": "b2",
+            "nome": "Refrigerante",
+            "descricao": "Lata 350ml gelada.",
+            "preco": 6.0,
+            "imagem": "https://images.unsplash.com/photo-1571066811602-716837d6818a?auto=format&fit=crop&w=64&q=80"
+          }
+        ]
+      }
+    ]
+  }
+  
