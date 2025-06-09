@@ -1,0 +1,22 @@
+{
+    "categorias": ["Romance", "Ficção", "Biografia", "Autoajuda", "Infantil"],
+    "livros": [
+      {
+        "id": 1,
+        "titulo": "Dom Casmurro",
+        "autor": "Machado de Assis",
+        "categoria": "Romance",
+        "preco": 29.90,
+        "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/32/Dom_Casmurro_1ed.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "A Arte da Guerra",
+        "autor": "Sun Tzu",
+        "categoria": "Autoajuda",
+        "preco": 22.00,
+        "imagem": ""
+      }
+    ]
+  }
+  
