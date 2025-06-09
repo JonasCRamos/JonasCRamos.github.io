@@ -1,22 +1,148 @@
 {
-    "categorias": ["Romance", "Ficção", "Biografia", "Autoajuda", "Infantil"],
-    "livros": [
-      {
-        "id": 1,
-        "titulo": "Dom Casmurro",
-        "autor": "Machado de Assis",
-        "categoria": "Romance",
-        "preco": 29.90,
-        "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/32/Dom_Casmurro_1ed.jpg"
-      },
-      {
-        "id": 2,
-        "titulo": "A Arte da Guerra",
-        "autor": "Sun Tzu",
-        "categoria": "Autoajuda",
-        "preco": 22.00,
-        "imagem": ""
-      }
-    ]
-  }
+  "categorias": ["Romance", "Ficção", "Fantasia", "Mistério", "Clássico", "Infantil"],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "categoria": "Clássico",
+      "preco": 19.90,
+      "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Dom_Casmurro.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "autor": "J.K. Rowling",
+      "categoria": "Fantasia",
+      "preco": 29.90,
+      "imagem": "https://covers.openlibrary.org/b/id/7984916-L.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "A Menina que Roubava Livros",
+      "autor": "Markus Zusak",
+      "categoria": "Ficção",
+      "preco": 24.50,
+      "imagem": "https://covers.openlibrary.org/b/id/11149980-L.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "categoria": "Infantil",
+      "preco": 14.00,
+      "imagem": "https://covers.openlibrary.org/b/id/10433839-L.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Orgulho e Preconceito",
+      "autor": "Jane Austen",
+      "categoria": "Romance",
+      "preco": 18.90,
+      "imagem": "https://covers.openlibrary.org/b/id/10252730-L.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Sherlock Holmes: Um Estudo em Vermelho",
+      "autor": "Arthur Conan Doyle",
+      "categoria": "Mistério",
+      "preco": 16.00,
+      "imagem": "https://covers.openlibrary.org/b/id/9251934-L.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Capitães da Areia",
+      "autor": "Jorge Amado",
+      "categoria": "Clássico",
+      "preco": 17.00,
+      "imagem": "https://covers.openlibrary.org/b/id/10136547-L.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Cem Anos de Solidão",
+      "autor": "Gabriel García Márquez",
+      "categoria": "Ficção",
+      "preco": 32.00,
+      "imagem": "https://covers.openlibrary.org/b/id/10638145-L.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "O Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "categoria": "Fantasia",
+      "preco": 27.90,
+      "imagem": "https://covers.openlibrary.org/b/id/6979861-L.jpg"
+    },
+    {
+      "id": 10,
+      "titulo": "Alice no País das Maravilhas",
+      "autor": "Lewis Carroll",
+      "categoria": "Infantil",
+      "preco": 15.00,
+      "imagem": "https://covers.openlibrary.org/b/id/7984911-L.jpg"
+    },
+
+    {
+      "id": 11, "titulo": "O Código Da Vinci", "autor": "Dan Brown", "categoria": "Mistério", "preco": 25.00, "imagem": "https://covers.openlibrary.org/b/id/8228781-L.jpg"
+    },
+    {
+      "id": 12, "titulo": "O Morro dos Ventos Uivantes", "autor": "Emily Brontë", "categoria": "Romance", "preco": 21.00, "imagem": "https://covers.openlibrary.org/b/id/10456847-L.jpg"
+    },
+    {
+      "id": 13, "titulo": "A Revolução dos Bichos", "autor": "George Orwell", "categoria": "Ficção", "preco": 18.00, "imagem": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    },
+    {
+      "id": 14, "titulo": "Coraline", "autor": "Neil Gaiman", "categoria": "Fantasia", "preco": 20.00, "imagem": "https://covers.openlibrary.org/b/id/10470337-L.jpg"
+    },
+    {
+      "id": 15, "titulo": "Os Miseráveis", "autor": "Victor Hugo", "categoria": "Clássico", "preco": 35.00, "imagem": "https://covers.openlibrary.org/b/id/10637690-L.jpg"
+    },
+    {
+      "id": 16, "titulo": "As Crônicas de Nárnia", "autor": "C.S. Lewis", "categoria": "Fantasia", "preco": 28.00, "imagem": "https://covers.openlibrary.org/b/id/7222245-L.jpg"
+    },
+    {
+      "id": 17, "titulo": "O Alquimista", "autor": "Paulo Coelho", "categoria": "Ficção", "preco": 19.00, "imagem": "https://covers.openlibrary.org/b/id/9350247-L.jpg"
+    },
+    {
+      "id": 18, "titulo": "A Cabana", "autor": "William P. Young", "categoria": "Ficção", "preco": 22.00, "imagem": "https://covers.openlibrary.org/b/id/8277239-L.jpg"
+    },
+    {
+      "id": 19, "titulo": "It: A Coisa", "autor": "Stephen King", "categoria": "Mistério", "preco": 42.00, "imagem": "https://covers.openlibrary.org/b/id/9154498-L.jpg"
+    },
+    {
+      "id": 20, "titulo": "A Fantástica Fábrica de Chocolate", "autor": "Roald Dahl", "categoria": "Infantil", "preco": 18.00, "imagem": "https://covers.openlibrary.org/b/id/10272243-L.jpg"
+    },
+    {
+      "id": 21, "titulo": "O Senhor dos Anéis: A Sociedade do Anel", "autor": "J.R.R. Tolkien", "categoria": "Fantasia", "preco": 39.90, "imagem": "https://covers.openlibrary.org/b/id/6979862-L.jpg"
+    },
+    {
+      "id": 22, "titulo": "Drácula", "autor": "Bram Stoker", "categoria": "Mistério", "preco": 22.00, "imagem": "https://covers.openlibrary.org/b/id/9323364-L.jpg"
+    },
+    {
+      "id": 23, "titulo": "O Retrato de Dorian Gray", "autor": "Oscar Wilde", "categoria": "Clássico", "preco": 17.90, "imagem": "https://covers.openlibrary.org/b/id/8231851-L.jpg"
+    },
+    {
+      "id": 24, "titulo": "A Culpa é das Estrelas", "autor": "John Green", "categoria": "Romance", "preco": 23.00, "imagem": "https://covers.openlibrary.org/b/id/8211996-L.jpg"
+    },
+    {
+      "id": 25, "titulo": "Matilda", "autor": "Roald Dahl", "categoria": "Infantil", "preco": 16.00, "imagem": "https://covers.openlibrary.org/b/id/10459412-L.jpg"
+    },
+    {
+      "id": 26, "titulo": "O Diário de Anne Frank", "autor": "Anne Frank", "categoria": "Clássico", "preco": 19.50, "imagem": "https://covers.openlibrary.org/b/id/10433843-L.jpg"
+    },
+    {
+      "id": 27, "titulo": "Jogos Vorazes", "autor": "Suzanne Collins", "categoria": "Ficção", "preco": 26.00, "imagem": "https://covers.openlibrary.org/b/id/6979870-L.jpg"
+    },
+    {
+      "id": 28, "titulo": "Percy Jackson: O Ladrão de Raios", "autor": "Rick Riordan", "categoria": "Fantasia", "preco": 25.00, "imagem": "https://covers.openlibrary.org/b/id/6979867-L.jpg"
+    },
+    {
+      "id": 29, "titulo": "O Nome do Vento", "autor": "Patrick Rothfuss", "categoria": "Fantasia", "preco": 34.00, "imagem": "https://covers.openlibrary.org/b/id/9350339-L.jpg"
+    },
+    {
+      "id": 30, "titulo": "A Máquina do Tempo", "autor": "H.G. Wells", "categoria": "Ficção", "preco": 18.00, "imagem": "https://covers.openlibrary.org/b/id/9323379-L.jpg"
+    }
+  ]
+}
+
   
